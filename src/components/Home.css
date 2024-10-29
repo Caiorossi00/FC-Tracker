@@ -1,0 +1,56 @@
+.container-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('../assets/Background.png') center center / cover no-repeat;
+    position: relative;
+  }
+  
+  .container-home button {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container-home button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .container-home button:active {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .container-home .instagram-icon {
+    width: 24px;
+    height: 24px;
+    margin-top: 20px;
+    filter: invert(100%);
+  }
+  
+  .container-home .card-background {
+    width: 80%;
+    height: 70%;
+    background: rgba(255, 0, 0, 0.1); 
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .container-home .player-icon {
+    width: 60vw;
+    height: auto;
+    margin-top: 20px;
+  }
